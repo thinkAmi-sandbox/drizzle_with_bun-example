@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1714547780848,
+      "tag": "0000_yielding_the_spike",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1714548775467,
+      "tag": "0001_flawless_hitman",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1714568117819,
+      "tag": "0002_slow_baron_zemo",
+      "breakpoints": true
+    }
+  ]
+}
