@@ -1,1 +1,0 @@
-ALTER TABLE writers ADD `pseudonym` text NOT NULL;

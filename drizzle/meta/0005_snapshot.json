@@ -1,7 +1,7 @@
 {
   "version": "5",
   "dialect": "sqlite",
-  "id": "88c220fe-8b3c-472e-8464-3a2c881cfd96",
+  "id": "20e50e30-6a47-4a9f-bb1c-a2445a756a34",
   "prevId": "3024dd3c-172f-4195-88b0-321c9d44282e",
   "tables": {
     "addresses": {
@@ -14,8 +14,8 @@
           "notNull": false,
           "autoincrement": false
         },
-        "name": {
-          "name": "name",
+        "municipality": {
+          "name": "municipality",
           "type": "text",
           "primaryKey": false,
           "notNull": false,
@@ -25,12 +25,12 @@
       "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {
-        "addresses_prefecture_name_pk": {
+        "addresses_prefecture_municipality_pk": {
           "columns": [
-            "name",
+            "municipality",
             "prefecture"
           ],
-          "name": "addresses_prefecture_name_pk"
+          "name": "addresses_prefecture_municipality_pk"
         }
       },
       "uniqueConstraints": {}
@@ -104,9 +104,32 @@
           "primaryKey": false,
           "notNull": false,
           "autoincrement": false
+        },
+        "pseudonym": {
+          "name": "pseudonym",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "comment": {
+          "name": "comment",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false,
+          "default": "''"
         }
       },
-      "indexes": {},
+      "indexes": {
+        "unique_pseudonym": {
+          "name": "unique_pseudonym",
+          "columns": [
+            "pseudonym"
+          ],
+          "isUnique": true
+        }
+      },
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
