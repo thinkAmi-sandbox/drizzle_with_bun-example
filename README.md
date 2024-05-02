@@ -10,3 +10,4 @@
 ## Related Blog (Written in Japanese)
 
 - [TypeScript + Bun + SQLite + Drizzle ORM な環境にて、Drizzle Kit の各コマンドを試してみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2024/05/01/223628)
+- [TypeScript + Bun + SQLite な環境にて、SQLのDDLをDrizzle ORM で書いてみたり、初期データの投入(seed)をしてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2024/05/02/203858)
