@@ -1,7 +1,9 @@
-import { text, integer, sqliteTable } from 'drizzle-orm/sqlite-core'
+import {text, integer, sqliteTable, uniqueIndex} from 'drizzle-orm/sqlite-core'
 
 export const writers = sqliteTable("writers", {
   id: integer("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
   name: text("name"),
   pseudonym: text("pseudonym").notNull()
-})
+}, (writer) => ({
+  uniqueIdx: uniqueIndex("unique_pseudonym").on(writer.pseudonym)
+}))

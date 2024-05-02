@@ -50,6 +50,13 @@
       "when": 1714631346585,
       "tag": "0006_curious_gambit",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1714632551039,
+      "tag": "0007_worried_veda",
+      "breakpoints": true
     }
   ]
 }
