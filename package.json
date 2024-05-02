@@ -3,7 +3,8 @@
   "scripts": {
     "generate": "drizzle-kit generate:sqlite",
     "migrate": "bun run migrate.ts",
-    "studio": "drizzle-kit studio"
+    "studio": "drizzle-kit studio",
+    "seed": "bun run seed.ts"
   },
   "module": "index.ts",
   "type": "module",
