@@ -1,0 +1,1 @@
+ALTER TABLE writers ADD `comment` text DEFAULT '';
