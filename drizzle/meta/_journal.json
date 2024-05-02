@@ -43,6 +43,13 @@
       "when": 1714638351244,
       "tag": "0005_mixed_zuras",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1714638963169,
+      "tag": "0006_open_shape",
+      "breakpoints": true
     }
   ]
 }
