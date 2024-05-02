@@ -43,6 +43,13 @@
       "when": 1714620062728,
       "tag": "0005_normal_famine",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1714631346585,
+      "tag": "0006_curious_gambit",
+      "breakpoints": true
     }
   ]
 }
